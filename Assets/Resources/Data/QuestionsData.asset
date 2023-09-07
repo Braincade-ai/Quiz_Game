@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: QuestionsData
+  m_EditorClassIdentifier: 
+  categoryName: Cyber Security
+  questions:
+  - questionInfo: Smishing is a type of attack done over?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Email
+    - SMS
+    - WiFi
+    - USB Memory
+    correctAns: SMS
+  - questionInfo: Creating a fake website that looks nearly identical to a real website
+      in order to trick users into entering their login information , which type
+      of attacks is this?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Deepfake
+    - Phishing
+    - Webishing
+    - Web hijacking
+    correctAns: Phishing
+  - questionInfo: What are the characteristics of a strong password?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Long
+    - Long, random and unique
+    - Long, unique
+    - Long, random
+    correctAns: Long, random and unique
+  - questionInfo: If you receive a suspicious email, should you?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Reply to it
+    - Open the attachments
+    - Click the links
+    - Report it to administrator
+    correctAns: Report it to administrator
+  - questionInfo: Which of the following is a weak password?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 123456
+    - P@ssw0rd
+    - ILoveYou123
+    - Test@123
+    correctAns: 123456
